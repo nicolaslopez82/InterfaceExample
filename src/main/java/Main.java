@@ -14,11 +14,11 @@ public class Main {
 
         Compra c = new Compra(1000);
 
-        Random randomGenerator = new Random();
-        int randomInt = randomGenerator.nextInt(3);
-        System.out.println(c.descuento(DescuentoFactory.createDescuento(randomInt)));
+        //Random randomGenerator = new Random();
+        //int randomInt = randomGenerator.nextInt(3);
+        //System.out.println(c.descuento(DescuentoFactory.createDescuento(randomInt)));
 
-        //System.out.println(c.descuento(DescuentoFactory.createDescuento(DescuentoType.INTERNET)));
+        System.out.println(c.descuento(DescuentoFactory.createDescuento(DescuentoType.INTERNET)));
 
     }
 
